@@ -49,7 +49,7 @@ public class ListImg_psh extends Activity {
 		super.onCreate(savedInstanceState);
 
 		setContentView(R.layout.list_at);
-		/*테스트입니다.*/
+		/*테스트입니다. 하하하하하하하하*/
 		
 		options = new DisplayImageOptions.Builder()
 		.showImageOnLoading(R.drawable.ic_stub)
