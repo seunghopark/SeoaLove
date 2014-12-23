@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:background="#ff3c3d45"    
+    android:orientation="vertical"
+    tools:context=".AppSite"
+    >
+
+    <ImageButton
+        android:id="@+id/img_app_mark2"
+        android:layout_width="237dp"
+        android:layout_height="122dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"        
+        android:background="#00000000"
+        android:drawingCacheQuality="high"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo_lage" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Copyright 2014 ZZAN FACTORY Co.,Ltd"
+        android:textColor="#ff9d9da0"
+        android:textSize="12sp" />
+
+</RelativeLayout>
