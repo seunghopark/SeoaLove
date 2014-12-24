@@ -28,7 +28,7 @@ public class ArrayStack {
 		
 		if(full()) throw new ArrayIndexOutOfBoundsException((top+1)+">="+maxSize);
 		stackArray[++top] = item;
-		//Array 변수의 특정 번째에 데이터가 없는 경우, 즉 Array변수의 데이터가 0부터 7까지 있는데 8번재의 데이터를 찾으려고 시도 할때 발생되는 에러 입니다.
+		//Array 변수의 특정asdfasdfasdfasdf 번째에 데이터가 없는 경우, 즉 Array변수의 데이터가 0부터 7까지 있는데 8번재의 데이터를 찾으려고 시도 할때 발생되는 에러 입니다.
 		
 	}
 	
